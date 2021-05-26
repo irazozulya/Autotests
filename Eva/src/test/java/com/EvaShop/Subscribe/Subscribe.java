@@ -21,7 +21,7 @@ public class Subscribe extends WebDriverSettings {
         Assert.assertTrue(homePage.getCurrentUrl().equals("https://eva.ua/ua/"));
         homePage.close();
     }
-
+/*
     @Test
     public void subscribeFailed() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
@@ -34,5 +34,5 @@ public class Subscribe extends WebDriverSettings {
         Assert.assertTrue(homePage.getError().equals("Будь ласка, введіть правильну адресу електронної пошти (Приклад: johndoe@domain.com)."));
         homePage.close();
    }
-
+*/
 }

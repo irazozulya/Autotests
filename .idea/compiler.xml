@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="test-test" />
         <module name="TestPrestaPageObject" />
+        <module name="Autotests" />
       </profile>
     </annotationProcessing>
   </component>
