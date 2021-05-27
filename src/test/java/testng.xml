@@ -1,0 +1,10 @@
+<suite name = "Suite">
+    <test name = "Test">
+        <classes>
+            <class name = "com.EvaShop.Search">
+            </class>
+            <class name = "com.EvaShop.Subscribe.Subscribe">
+            </class>
+        </classes>
+    </test>
+</suite>
