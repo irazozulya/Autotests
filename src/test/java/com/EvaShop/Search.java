@@ -17,7 +17,7 @@ public class Search {
     @Test
     public void tracking() {
         System.setProperty("webdriver.chrome.driver",
-                "/src/main/resources/drivers/chromedriver");
+                "/Users/irazozulya/Desktop/Autotests/src/main/resources/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://eva.ua/ua/");
 
