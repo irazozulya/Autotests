@@ -1,4 +1,4 @@
-package com.EvaShop.Subscribe;
+package src.test.java;
 
 import com.EvaShop.WebDriverSettings;
 import org.junit.Assert;
