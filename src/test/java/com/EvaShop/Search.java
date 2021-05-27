@@ -30,7 +30,7 @@ public class Search {
         wait = new WebDriverWait(driver, 10);
         WebElement message = driver.findElement(By.cssSelector("[data-bind=\"html: message.text\"]"));
         boolean bl = message.isDisplayed();
-        Assert.assertTrue(bl);
+        Assert.assertTrue(false);
 
         driver.quit();
     }
