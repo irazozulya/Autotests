@@ -16,7 +16,8 @@ public class Search {
 
     @Test
     public void tracking() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver 7");
+        System.setProperty("webdriver.chrome.driver",
+                "/src/main/resources/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://eva.ua/ua/");
 
@@ -36,7 +37,8 @@ public class Search {
 
     @Test
     public void changeLanguage() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver 7");
+        System.setProperty("webdriver.chrome.driver",
+                "/Users/irazozulya/Desktop/Autotests/src/main/resources/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://eva.ua/ua/");
 
@@ -51,7 +53,7 @@ public class Search {
 
     @Test
     public void searchRumjana() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver 7");
+        System.setProperty("webdriver.chrome.driver", "/Users/irazozulya/Desktop/Autotests/src/main/resources/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://eva.ua/ua/");
 

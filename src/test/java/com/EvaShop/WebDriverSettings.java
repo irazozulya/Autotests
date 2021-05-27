@@ -12,7 +12,8 @@ public class WebDriverSettings {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver 7");
+        System.setProperty("webdriver.chrome.driver",
+                "/Users/irazozulya/Desktop/Autotests/src/main/resources/drivers/chromedriver");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
     }
